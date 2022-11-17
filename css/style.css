@@ -144,12 +144,11 @@ body {
 
 /* DEBUG */
 
-/* .debug .main-section {
+.debug .main-section {
     background-color: red;
 } */
 
-/* .debug .footer-section {
+.debug .footer-section {
     background-color: pink;
     border: 1px dashed black;
-} */
-
+}
