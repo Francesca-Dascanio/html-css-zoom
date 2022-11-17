@@ -8,6 +8,7 @@
 /* REGOLE GENERALI */
 body {
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -21,11 +22,29 @@ body {
 .header-container {
     width: 100vw;
     height: 5vh;
+    color: white;
+    position: relative;
+    left: 0;
+    margin: 0;
 }
 
+.screen-display {
+    position: absolute;
+    right: 0;
+    margin: 5vh 0;
+}
 
+.screen-display > span {
+  background-color: lightgray;  
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 5px;
+}
 
-
+.button-speakers {
+    margin-right: 10px;
+}
 
 /* REGOLE MAIN */
 /* main-container può avere vw? */
@@ -35,6 +54,7 @@ body {
 }
 
 .main-section-container {
+    color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,7 +64,6 @@ body {
 }
 
 .main-section {
-    background-color: red;
     width: 14%;
     height: 100px;
     margin-bottom: 10px; 
@@ -60,9 +79,19 @@ body {
 
 .footer-section {
     display: inline-block;
-    background-color: pink;
-    border: 1px dashed black;
     vertical-align: middle; 
 }
 
 /* non so se mi serve vertical align.. */
+
+
+/* DEBUG */
+
+.debug .main-section {
+    background-color: red;
+}
+
+.debug .footer-section {
+    background-color: pink;
+    border: 1px dashed black;
+}
