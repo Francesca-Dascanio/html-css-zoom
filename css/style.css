@@ -13,7 +13,7 @@ body {
 
 
 .bg-gray {
-    background-color: darkgray;
+    background-color: #222222;
 }
 
 
@@ -35,7 +35,7 @@ body {
 }
 
 .screen-display > span {
-  background-color: lightgray;  
+  background-color: #4a4a4a;  
   border-radius: 5px;
   font-weight: bold;
   font-size: 0.9em;
